@@ -1,6 +1,15 @@
 
+h1 {
+    text-align: center;
+    font-weight: 900;
+    text-decoration: tomato underline;
+    letter-spacing: 10px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 h2 {
     color: #fcaadb;
+    line-height: 2;
 }
 
 button {
