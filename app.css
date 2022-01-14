@@ -55,4 +55,12 @@ button:hover {
 .post:nth-of-type(2n) {
     background-color: blue;
 }
+
+h2::first-letter {
+    font-size: 50px;
+}
+
+p::selection {
+    background-color: orange; !important;
+}
 /* # for ID and . for class
