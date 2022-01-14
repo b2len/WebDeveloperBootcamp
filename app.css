@@ -20,3 +20,39 @@ button {
 p {
     color: rgb(89, 151, 0);
 }
+
+#signup{
+    background-color: tomato;
+}
+
+span {
+    color: yellowgreen;
+}
+
+.tag {
+    background-color: #e63946;
+    color: f1faee;
+    font-size: 25px;
+
+}
+
+footer > A {
+    font-size: large;
+}
+
+input[type="password"] {
+    font-size: xx-large;
+}
+
+button:hover {
+    background-color: slateblue;
+}
+
+.post button:active {
+    background-color: yellow;
+}
+
+.post:nth-of-type(2n) {
+    background-color: blue;
+}
+/* # for ID and . for class
