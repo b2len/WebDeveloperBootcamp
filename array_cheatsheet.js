@@ -13,3 +13,12 @@ colors.length; //3
 
 //unshift(val) - adds value to START of an array
 //shift() - removes and returns first element in an array
+
+
+// In array, the variable is pointing to a physical location as the reference point
+let nums = [1, 2, 3];
+let numsCopy = nums;
+numsCopy
+    (3)[1, 2, 3]
+nums == numsCopy;
+true
