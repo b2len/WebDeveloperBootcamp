@@ -24,8 +24,8 @@ for (let person in testScores) {
 // ==============================================
 
 let total = 0;
-let scores = Object.values(testScores);
-for (let score of scores) {
+let scores = Object.values(testScores); // turn the value into an array
+for (let score of scores) {             // then loop through the array
     total += score;
 }
 console.log(total / scores.length)
