@@ -34,3 +34,22 @@ for (let link of allLinks) {
     link.style.textDecorationColor = 'magenta';
     link.style.textDecorationStyle = 'wavy'
 }
+
+//////////
+document.body.appendChild(newElement)
+const newH3 = document.createElement('h3');
+newHs.innerText = 'I am new!';
+cosnt p = document.querySelector('p');
+
+p.append('i am next ', 'anothertext');
+h1.insertAdjacentElement('afterend', h2)
+
+
+///// Practice 58 ///////////
+const div=document.querySelector('.container')
+
+while (i < 100) {
+    let btn = document.createElement('btn');
+    btn.innerHTML = 'Hey!';
+    div.appendChild(btn);
+}
