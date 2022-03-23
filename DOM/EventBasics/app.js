@@ -37,3 +37,15 @@ const tasButton = document.querySelector('#tas');
 
 tasButton.addEventListener('click', twist)
 tasButton.addEventListener('click', shout)
+
+// Practice 60
+const btn1 = document.querySelector('#hello');
+const btn2 = document.querySelector('#goodbye');
+
+btn1.addEventListener('click', function () {
+    console.log("hello");
+})
+
+btn2.addEventListener('click', function () {
+    console.log("goodbye");
+})

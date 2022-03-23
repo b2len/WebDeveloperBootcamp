@@ -23,3 +23,18 @@ const addTweet = (username, tweet) => {
     tweetsContainer.append(newTweet);
 }
 
+// Excercise 61
+const form = document.querySelector('form');
+const list = document.querySelector("#list")
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const productInput = form.elements.product;
+    const quantityInput = form.elements.qty;
+    const newItem = document.createElement('li');
+    newItem.innerText = "${quantityInput} ${productInput};
+    list.append(newItem);
+    productInput.value = "";
+    quantityInput.value = "";
+
+})
