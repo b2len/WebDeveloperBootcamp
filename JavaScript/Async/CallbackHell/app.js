@@ -38,7 +38,7 @@ delayedColorChange('red', 1000, () => {
     })
 });
 
-
+////////////////////////////////////////VERY COMMON CALL BACK PATTERN//////////////////////////////
 // searchMoviesAPI('amadeus', () => {
 //     saveToMyDB(movies, () => {
 //         //if it works, run this:
